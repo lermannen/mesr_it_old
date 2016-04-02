@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20141127190603) do
 
-  create_table "feeds", force: true do |t|
+  create_table "feeds", force: :cascade do |t|
     t.string   "name"
     t.string   "data"
     t.string   "uri"
